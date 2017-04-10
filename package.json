@@ -1,6 +1,6 @@
 {
   "name": "hapi-async",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Async helpers for hapi",
   "homepage": "https://github.com/sibartlett/hapi-async",
   "repository": "git://github.com/sibartlett/hapi-async",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=6.0.0"
   },
   "scripts": {
     "build": "rimraf dist/ && babel src/ --out-dir dist/"
