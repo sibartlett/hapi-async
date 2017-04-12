@@ -10,7 +10,7 @@ export default func => {
       return result;
     }
 
-    result.then(() => _next()).catch(function(error) {
+    result.catch(function(error) {
       if (error instanceof Error) {
         const { name, message, stack } = error;
         request.log(['error', 'uncaught'], {name, message, stack});

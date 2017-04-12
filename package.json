@@ -1,6 +1,6 @@
 {
   "name": "hapi-async",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Async helpers for hapi",
   "homepage": "https://github.com/sibartlett/hapi-async",
   "repository": "git://github.com/sibartlett/hapi-async",
